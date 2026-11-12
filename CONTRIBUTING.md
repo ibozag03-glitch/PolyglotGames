@@ -16,7 +16,29 @@ or
 git checkout -b game_name/feature_name
 ```
 3. Make small, focused and clear commit messages.
-4. Open a pull request when the feature is ready.
+4. Open a pull request when the game or feature is ready.
+
+## Pull request format
+
+Use a clear title that identifies the game and change, for example:
+`Guess the Number: add C implementation`
+
+Include these details in the pull request description:
+
+### Summary
+What changed and why?
+
+### Game and language
+Which game and implementation language does this affect?
+
+### Validation
+What tests or manual checks did you run? Include the results.
+
+### Checklist
+- [ ] The implementation follows the game's `rules.md`.
+- [ ] Tests or the test plan were updated when needed.
+- [ ] Game documentation and status were updated when needed.
+- [ ] The change is focused and does not include unrelated files.
 
 ## Adding a new game
 
