@@ -90,7 +90,7 @@ several games. Do not create shared files “just in case”.
 ### `tests/` folder
 
 - `tests/` — contains tests organized by game.
-- `tests/[game_name]/test_plan.md` — optional language-independent acceptance plan for the game.
+- `tests/[game_name]/test_plan.md` — describes language-independent acceptance tests for the game.
 - `tests/[game_name]/[language]/` — contains tests for that game’s implementation in the specified language.
 
 ## Project Identification

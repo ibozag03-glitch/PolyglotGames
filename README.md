@@ -61,10 +61,10 @@ Follow the [architecture](docs/ARCHITECTURE.md) file for more details about the 
 ## Project status
 
 The project is currently in its initialization phase.
-The repository structure and roadmap are defined, but no game has been
-implemented yet.
+The repository structure and roadmap are defined. Documentation for the first game, Guess the Number, 
+is in progress; implementation has not started.
 
-The first planned game to implement is **Guess the Number** in C.
+The first game planned for implementation is **Guess the Number** in C.
 
 ## Contributing
 
