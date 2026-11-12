@@ -41,6 +41,7 @@ PolyglotGames/
 │   └── documentation/
 └── tests/
     └── [game_name]/
+        ├── test_plan.md
         └── [language]/
 ```
 
@@ -89,6 +90,7 @@ several games. Do not create shared files “just in case”.
 ### `tests/` folder
 
 - `tests/` — contains tests organized by game.
+- `tests/[game_name]/test_plan.md` — optional language-independent acceptance plan for the game.
 - `tests/[game_name]/[language]/` — contains tests for that game’s implementation in the specified language.
 
 ## Project Identification
@@ -99,4 +101,4 @@ Repository URL: https://github.com/ibozag03-glitch/PolyglotGames
 
 Primary Contact: ibozag03-glitch
 
-Date of Last Update: [2026-11-08]
+Date of Last Update: [2026-11-12]
