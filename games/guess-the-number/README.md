@@ -5,14 +5,14 @@ The game tells you whether each valid guess is too low or too high.
 
 ## Status
 
-- Game: Planned
+- Game: In progress
 - Documentation: Initial specification
-- Implementation: Not started
+- Implementation: C starter program without gameplay
 - Planned language: C
 - Planned interface: Console
 - Available languages: None
 
-## How to play
+## Planned gameplay
 
 1. Start a game round.
 2. Enter a whole number between 1 and 100.
@@ -22,6 +22,22 @@ The game tells you whether each valid guess is too low or too high.
 6. Choose whether to play another round.
 
 Invalid entries do not count as guesses.
+
+## Build and run
+
+From the repository root, use:
+
+```bash
+cd games/guess-the-number/c
+mingw32-make
+mingw32-make run
+```
+
+To remove the generated executable, use:
+
+```bash
+mingw32-make clean
+```
 
 ## Scope
 
