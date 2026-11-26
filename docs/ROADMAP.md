@@ -15,7 +15,7 @@ Every time you update this file keep the [log](#logs) section update with your c
 
 | Game | Status | Planned language | Available language |
 |------|--------|----------------|----------------|
-| Guess the Number | Planned | C, JavaScript, Python, C++, PHP, Java | TBD |
+| Guess the Number | In progress | C, JavaScript, Python, C++, PHP, Java | TBD |
 | Rock Paper Scissors | Planned | C, JavaScript, Python, C++, PHP, Java | TBD |
 | Hangman | Planned | C, JavaScript, Python, C++, PHP, Java | TBD |
 | Tic-Tac-Toe | Planned | C, JavaScript, Python, C++, PHP, Java | TBD |
@@ -40,3 +40,8 @@ Every time you update this file keep the [log](#logs) section update with your c
 - 2026-11-08 PolyglotGames : **Project initialisation**
     - Design the project structure and organization
     - Create the project [README](README.md), [CONTRIBUTING](CONTRIBUTING.md) and [LICENSE](LICENSE) files
+- 2026-11-14 PolyglotGames : **Guess the Number implementation started**
+    - Add initial C program and Makefile; gameplay is not implemented yet
+    - Update game and Project documentation to reflect the current status
+    - Files involved: [project README](README.md), [game README](../games/guess-the-number/README.md) and [game language folder files](../games/guess-the-number/c/)
+    - Next step: implement gameplay and validate it against the test plan

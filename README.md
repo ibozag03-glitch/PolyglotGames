@@ -13,11 +13,11 @@ the same game rules while progressively increasing technical complexity.
 
 ## Games
 
-List of planned games to create sorted by difficulty.
+Games are sorted by difficulty.
 
 | Game | Difficulty | Status |
 |---|---|---|
-| Guess the Number | Very easy | Planned |
+| Guess the Number | Very easy | In progress |
 | Rock Paper Scissors | Very easy | Planned |
 | Hangman | Easy | Planned |
 | Tic-Tac-Toe | Easy | Planned |
@@ -61,10 +61,10 @@ Follow the [architecture](docs/ARCHITECTURE.md) file for more details about the 
 ## Project status
 
 The project is currently in its initialization phase.
-The repository structure and roadmap are defined, but no game has been
-implemented yet.
+The repository structure and roadmap are defined. Documentation for Guess the Number is in place, and
+the C implementation has started, but gameplay has not been implemented yet.
 
-The first planned game to implement is **Guess the Number** in C.
+The first game being implemented is **Guess the Number** in C.
 
 ## Contributing
 
